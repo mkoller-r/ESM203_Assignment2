@@ -1,0 +1,28 @@
+---
+title: "ESM 203 Assignment 2"
+author: "Matt Koller"
+date: "11/11/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(janitor)
+library(here)
+```
+
+## 1. Introduction
+
+In this document, I will read in an explore the dataset for 15-minute averaged precipitation in downtown Santa Barbara from 1970 to 2014.
+
+## 2. Read in and wrangle data
+
+In this section, I will read in the data and explore it.
+
+```{r}
+sb_rain <- read_csv(here("data", "2350406.csv"))
+```
+
+
+
